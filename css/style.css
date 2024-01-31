@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#home {
+    width: 100%;
+    min-height: 660px;
+    background-image:linear-gradient(rgba(255, 48, 48, 0.463) 0% 100%), url("../images/events-heavenly-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+.content {
+    min-height: 660px;
+}
+
+.content h2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+.content p {
+    color: #fff;
+}
+.sideNav {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    z-index: 100;
+    background-color: #111111;
+    transition: all 0.4s;
+}
+.sideNav li {
+    cursor: pointer;
+}
+.sideNav li:hover a {
+    color: #601C1E;
+}
+.sideNav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+.sideNav .awe {
+    font-size: 30px;
+    padding-left: 100px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.sideNav .awe:hover {
+    color: #601C1E;
+}
+.openIcon {
+    position: absolute;
+    top: 50%;
+    right: -110px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.singer {
+    margin: auto;
+    width: 50%;
+    min-height: 50vh;
+}
+.singer h3 {
+    background-color: #E68285;
+}
+.singer .quote {
+    background-color: #CCCCCC;
+}
+
+
+.count {
+    background-image:linear-gradient(rgba(255, 43, 43, 0.627) 0% 100%), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 330px;
+}
+
+.timer {
+    border: 1px solid #fff;
+}
+
+.form {
+    min-height: 90vh;
+}
+
+.small-icons i {
+    border: 1px solid gray;
+    color: gray;
+}
+
+.form .main span {
+    color: #D62E33;
+}
+
+.form .main button {
+    color: #fff;
+    background-color: #D62E33;
+}
+
+.form p {
+    color: gray;
+}
+
+.form h2 {
+    color: #444444;
+    font-size: 35px;
+    font-weight: 700;
+}
